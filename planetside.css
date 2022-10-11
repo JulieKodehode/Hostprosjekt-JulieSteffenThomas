@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1,
+h3 {
+  font-family: "Orbitron", sans-serif;
+}
+
+p {
+  font-family: "Turret Road", cursive;
+}
