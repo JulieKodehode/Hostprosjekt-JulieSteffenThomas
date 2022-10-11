@@ -18,3 +18,9 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.info-box {
+  border: 1px black solid;
+  margin: 5px;
+  padding: 5px;
+}
