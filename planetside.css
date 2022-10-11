@@ -11,8 +11,8 @@ h2 {
 }
 
 p {
-  /* font-family: "Turret Road", cursive; */
-  font-family: "Orbitron", sans-serif;
+  font-family: "Turret Road", cursive;
+  /* font-family: "Orbitron", sans-serif; */
   /* border: solid white 2px; */
 }
 
@@ -34,13 +34,13 @@ h1 {
 }
 
 .mars-img {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-right: 100px;
 }
 
 .mars-info {
   display: flex;
-  margin: 50px 70px 80px 0px;
+  margin: 50px 70px 80px 50px;
   border: red solid 2px;
   border-radius: 30px;
   background-color: #7c2f1e9b;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .venus-img {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .venus-info {
