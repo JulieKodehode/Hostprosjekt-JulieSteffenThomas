@@ -1,0 +1,24 @@
+/* CSS header/footer */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.navItem {
+  text-align: center;
+  padding-right: 50px;
+}
+
+/* Så må vi legge psuedo element på alle ancor-statusene men tar det når vi har fargene klart */
+
+footer {
+  background-color: black;
+  color: white;
+}
