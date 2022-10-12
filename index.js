@@ -8,5 +8,5 @@ contactForm.addEventListener("submit", function (e) {
   const contactFormData = new FormData(contactForm);
   const firstName = contactFormData.get("firstName");
 
-  formText.textContent = `Takk ${firstName} for din interesse i solsystemet.`;
+  formText.textContent = `Takk ${firstName} for din interesse i solsystemet. Din epost er nå sendt og vi kontakter deg så raskt som mulig.`;
 });
