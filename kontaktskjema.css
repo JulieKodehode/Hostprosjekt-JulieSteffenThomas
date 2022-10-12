@@ -19,6 +19,7 @@ body {
   font-family: "Orbitron", sans-serif;
   background-image: url(images/1.jpg);
   background-size: cover;
+  color: white;
 }
 
 /* All headings */
@@ -37,7 +38,7 @@ p {
 .navBar {
   display: flex;
   justify-content: flex-end;
-  background-color: black;
+  background-color: #120402;
   color: white;
 }
 
@@ -92,6 +93,12 @@ footer MÅ ha flex-shrink: 0; */
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  border: red solid 3px;
+  background-color: #7c2f1eb0;
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .flexButton {
