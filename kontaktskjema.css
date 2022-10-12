@@ -97,6 +97,10 @@ footer MÅ ha flex-shrink: 0; */
   justify-content: center;
 }
 
+textarea {
+  resize: none;
+}
+
 .submitButton {
   width: 100px;
   height: 30px;
@@ -106,6 +110,6 @@ footer MÅ ha flex-shrink: 0; */
   font-family: Orbitron, sans-serif;
 }
 
-textarea {
-  resize: none;
+.submitButton:hover {
+  background-color: lightgreen;
 }
