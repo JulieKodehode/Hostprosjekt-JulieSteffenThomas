@@ -3,6 +3,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url(images/pexels-pixabay-41951.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #landingpage {
