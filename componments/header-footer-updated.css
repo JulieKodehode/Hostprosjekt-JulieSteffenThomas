@@ -1,4 +1,4 @@
-/* CSS header/footer (outdated)*/
+/* CSS header/footer */
 
 /* Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
@@ -12,20 +12,28 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  /* Lagt til background som en del av denne css'en */
+  background-image: url(images/pexels-pixabay-41951.jpg);
+  /* background-size: auto;
+  background-position: center; */
+  background-repeat: no-repeat;
 }
 
 /* Typography */
-body {
-  font-family: "Orbitron", sans-serif;
-}
-
 /* All headings */
 .navItem,
-.footerItem {
+.footerItem,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Orbitron", sans-serif;
   font-weight: 700;
 }
 
+/* All paragraphs */
 p {
   font-family: "Turret Road", cursive;
   font-weight: 400;
@@ -35,7 +43,7 @@ p {
 .navBar {
   display: flex;
   justify-content: flex-end;
-  background-color: black;
+  background-color: #120402;
   color: white;
 }
 
@@ -59,9 +67,9 @@ a:visited {
   color: white;
 }
 
-/* Change to whatever the hexcode is */
+/* Change to whatever the hexcode is - fixed */
 a:hover {
-  color: red;
+  color: #c0632b;
 }
 
 a:active {
@@ -70,7 +78,7 @@ a:active {
 
 /* Footer */
 .footer {
-  background-color: black;
+  background-color: #120402;
   color: white;
   flex-shrink: 0;
 }
