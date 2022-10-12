@@ -12,23 +12,30 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  /* Lagt til background som en del av denne css'en */
+  background-image: url(images/pexels-pixabay-41951.jpg);
+  /* background-size: auto;
+  background-position: center; */
+  background-size: cover;
+  color: white;
+  font-family: Orbitron, sans-serif;
 }
 
 /* Typography */
-body {
-  font-family: "Orbitron", sans-serif;
-  background-image: url(images/1.jpg);
-  background-size: cover;
-  color: white;
-}
-
 /* All headings */
 .navItem,
-.footerItem {
+.footerItem,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Orbitron", sans-serif;
   font-weight: 700;
 }
 
+/* All paragraphs */
 p {
   font-family: "Turret Road", cursive;
   font-weight: 400;
@@ -62,9 +69,9 @@ a:visited {
   color: white;
 }
 
-/* Change to whatever the hexcode is */
+/* Change to whatever the hexcode is - fixed */
 a:hover {
-  color: red;
+  color: #c0632b;
 }
 
 a:active {
@@ -73,9 +80,13 @@ a:active {
 
 /* Footer */
 .footer {
-  background-color: black;
+  background-color: #120402;
   color: white;
   flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .footerItem {
@@ -96,7 +107,7 @@ footer MÅ ha flex-shrink: 0; */
   border: red solid 3px;
   background-color: #7c2f1eb0;
   width: 400px;
-  margin: 100px auto;
+  margin: 80px auto;
   padding: 20px;
   border-radius: 30px;
 }
