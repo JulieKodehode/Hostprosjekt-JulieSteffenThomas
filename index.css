@@ -13,7 +13,8 @@ body {
   padding: 0;
   height: 100%;
   /* Lagt til background som en del av denne css'en */
-  background-image: url(images/pexels-pixabay-41951.jpg);
+  background-image: url(/images/Super\ Nova\ background\ long.jpg); /*Steffen's*/
+  /* background-image: url(/images/pexels-pixabay-41951.jpg); */
   background-repeat: no-repeat;
 }
 
@@ -133,7 +134,8 @@ img {
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
-  background-color: #7c2f1eb0; /* #7C2F1E */
+  /* background-color: #7c2f1eb0; #7C2F1E */
+  background-color: #864750;
 }
 
 h1 {
