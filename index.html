@@ -9,11 +9,15 @@
     <!-- <script src="index.js" defer></script> -->
   </head>
   <body>
-    <!-- Nav -->
+    <!-- Navbar -->
     <header>
-      <!-- Vi må lage en felles header/navbar som skal være gjengående på alle sidene vi lager. -->
+      <nav class="navBar">
+        <p class="navItem"><a href="#">Hjem</a></p>
+        <p class="navItem"><a href="#">Planet</a></p>
+        <p class="navItem"><a href="#">Kontaktskjema</a></p>
+      </nav>
     </header>
-    <!-- /Nav -->
+    <!-- /Navbar -->
 
     <!-- Landingpage -->
     <main>
@@ -32,8 +36,10 @@
         <!-- /Intro -->
 
         <!-- Image -->
-        <!-- Not final, just for visual -->
-        <img src="images/space-universe-solar-system.jpg" alt="Bilde av solsystemet våres" />
+        <!-- Not final image, just for visual -->
+        <div class="image">
+          <img src="images/space-universe-solar-system.jpg" alt="Bilde av solsystemet våres" />
+        </div>
         <!-- /Image -->
 
         <!-- Info -->
@@ -74,9 +80,9 @@
     <!-- Informasjon funnet på: https://no.wikipedia.org/wiki/Solsystemet -->
 
     <!-- Acknowledgment -->
-    <footer>
-      <!-- Skal vi ha: Laget av: Julie, Steffen og Thomas i en felles footer?-->
+    <footer class="footer">
+      <p class="footerItem">Laget av: Julie, Steffen og Thomas</p>
     </footer>
-    <!-- /Acknowledgment -->
+    <!-- Acknowledgment -->
   </body>
 </html>
