@@ -14,8 +14,6 @@ body {
   height: 100%;
   /* Lagt til background som en del av denne css'en */
   background-image: url(images/pexels-pixabay-41951.jpg);
-  /* background-size: auto;
-  background-position: center; */
   background-repeat: no-repeat;
 }
 
@@ -116,6 +114,10 @@ body {
   /* padding-bottom: 50px; */
 }
 
+img {
+  border-radius: 7px;
+}
+
 .image {
   margin: 20px;
 }
@@ -132,4 +134,9 @@ body {
   margin: 5px;
   padding: 5px;
   background-color: #7c2f1eb0; /* #7C2F1E */
+}
+
+h1 {
+  font-size: 35px;
+  letter-spacing: 7px;
 }
