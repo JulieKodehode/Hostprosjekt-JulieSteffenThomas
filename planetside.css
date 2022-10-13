@@ -2,7 +2,8 @@ body {
   background-color: black;
   color: white;
   /* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
-  background-image: url(/images/Super\ Nova\ 1520x2400\ no\ filter.jpg);
+  background-image: url(/images/pexels-pixabay-41951.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -109,7 +110,7 @@ a:active {
 .venus-info {
   display: flex;
   margin: 30px 60px 80px 0px;
-  border: #120402 solid 3px;
+  border: #120402 solid px;
   border-radius: 30px;
   background-color: #c0642b8d;
   padding: 0px 30px 10px 30px;
