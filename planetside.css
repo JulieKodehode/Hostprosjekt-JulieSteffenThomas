@@ -4,7 +4,6 @@ body {
   /* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
   background-image: url(/images/Super\ Nova\ 1520x2400\ no\ filter.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   margin: 0;
   padding: 0;
   text-shadow: 0 0 3px #120402;
@@ -22,7 +21,7 @@ h2 {
 p {
   font-family: "Turret Road", cursive;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 
   /* font-family: "Orbitron", sans-serif; */
   /* border: solid white 2px; */
@@ -33,7 +32,7 @@ h1 {
   margin-left: 40px;
   margin-top: 30px;
   font-weight: 700;
-  border: solid 2px red;
+  border: solid 3px #120402;
   border-radius: 30px;
   padding: 8px 15px 8px 15px;
   background-color: #c0642b6b;
@@ -94,7 +93,7 @@ a:active {
 .mars-info {
   display: flex;
   margin: 50px 70px 80px 50px;
-  border: red solid 2px;
+  border: #120402 solid 3px;
   border-radius: 30px;
   background-color: #7c2f1e9b;
   padding: 0px 30px 10px 30px;
@@ -110,7 +109,7 @@ a:active {
 .venus-info {
   display: flex;
   margin: 30px 60px 80px 0px;
-  border: red solid 2px;
+  border: #120402 solid 3px;
   border-radius: 30px;
   background-color: #c0642b8d;
   padding: 0px 30px 10px 30px;

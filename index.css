@@ -52,10 +52,10 @@ p {
 }
 
 /* Main */
-.content {
+/* .content {
   height: 100vh;
   flex: 1 0 auto;
-}
+} */
 
 /* Anchor status */
 a:link {
@@ -126,14 +126,19 @@ img {
   display: flex;
   flex-direction: row;
   /* padding-top: 50px; */
+  font-size: 18px;
 }
 
 .info-box {
   border: 3px #120402 solid;
   border-radius: 10px;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   background-color: #7c2f1eb0; /* #7C2F1E */
+}
+
+.size {
+  width: 50%;
 }
 
 h1 {
