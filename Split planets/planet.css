@@ -1,18 +1,19 @@
-body {
-  background-color: black;
+body,
+html {
   color: white;
   /* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
   background-image: url(/images/pexels-pixabay-41951.jpg);
+  background-size: auto;
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 100%;
   margin: 0;
   padding: 0;
   text-shadow: 0 0 3px #120402;
 }
 
-html {
-  height: 100%;
-}
+/* html {
+  height: 342%;
+} */
 
 h2 {
   font-family: "Orbitron", sans-serif;
@@ -22,9 +23,7 @@ h2 {
 p {
   font-family: "Turret Road", cursive;
   font-weight: 400;
-  font-size: 16px;
-
-
+  /* font-size: 20px; */
   /* font-family: "Orbitron", sans-serif; */
   /* border: solid white 2px; */
 }
@@ -87,6 +86,10 @@ a:active {
   justify-content: space-around;
 }
 
+#planeter-title {
+  margin: 10px;
+  padding: 10px;
+}
 .mars-img {
   margin-top: 150px;
   margin-right: 100px;
@@ -99,14 +102,13 @@ a:active {
   border-radius: 30px;
   background-color: #7c2f1e9b;
   padding: 0px 30px 10px 30px;
-  width: max-content;
-  height: max-content;
+  width: 600px;
+  height: fit-content;
   flex-flow: column;
 }
 
 .venus-img {
-  margin-top: 35px;
-  margin-right: 50px;
+  margin-top: 100px;
 }
 
 .venus-info {
@@ -116,8 +118,8 @@ a:active {
   border-radius: 30px;
   background-color: #c0642b8d;
   padding: 0px 30px 10px 30px;
-  width: max-content;
-  height: max-content;
+  width: 600px;
+  height: fit-content;
   flex-flow: column;
 }
 
@@ -125,10 +127,10 @@ a:active {
   background-color: #120402;
   color: white;
   flex-shrink: 0;
-  position: sticky;
+  /* position: static;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .footerItem {
