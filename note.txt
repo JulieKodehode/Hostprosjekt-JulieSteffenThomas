@@ -3,11 +3,11 @@
 
 # Color palette:
 ## https://coolors.co/120402-260e05-7c2f1e-c0632b-1e0703
-Smokey black: 120402
-Dark Sienna: 260E05
-Burnt Umber: 7C2F1E
-Alloy Orange: C0632B
-Xiketic: 1E0703
+Smokey black: #120402
+Dark Sienna: #260E05
+Burnt Umber: #7C2F1E
+Alloy Orange: #C0632B
+Xiketic: #1E0703
 
 # Google Fonts:
 ## @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");

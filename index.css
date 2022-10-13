@@ -13,12 +13,11 @@ body {
   padding: 0;
   height: 100%;
   /* Lagt til background som en del av denne css'en */
-  background-image: url(images/pexels-pixabay-41951.jpg);
+  background-image: url(/images/pexels-pixabay-41951.jpg);
   background-repeat: no-repeat;
 }
 
 /* Typography */
-
 /* All headings */
 .navItem,
 .footerItem,
@@ -52,10 +51,10 @@ p {
 }
 
 /* Main */
-.content {
+/* .content {
   height: 100vh;
   flex: 1 0 auto;
-}
+} */
 
 /* Anchor status */
 a:link {
@@ -119,7 +118,7 @@ img {
 }
 
 .image {
-  margin: 20px;
+  margin-bottom: 15px;
 }
 
 .info {
