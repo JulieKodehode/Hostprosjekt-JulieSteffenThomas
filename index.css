@@ -95,7 +95,6 @@ footer MÅ ha flex-shrink: 0; */
 /*
 
 /* CSS landingsside */
-
 body {
   margin: 0;
   padding: 0;
@@ -135,6 +134,12 @@ img {
   background-color: #7c2f1eb0; /* #7C2F1E */
 }
 
+.size {
+  padding: 5px;
+  width: 50%;
+}
+
+/* Typography */
 h1 {
   font-size: 35px;
   letter-spacing: 7px;
