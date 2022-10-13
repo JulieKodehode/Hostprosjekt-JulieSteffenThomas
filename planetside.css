@@ -1,17 +1,29 @@
 body {
   background-color: black;
   color: white;
-  background-image: url(/images/Super\ Nova\ background\ long.jpg);
+  /* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
+  background-image: url(/images/Super\ Nova\ 1520x2400\ no\ filter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 3px #120402;
+}
+
+html {
+  height: 342%;
 }
 
 h2 {
   font-family: "Orbitron", sans-serif;
+  font-weight: 700;
 }
 
 p {
   font-family: "Turret Road", cursive;
+  font-weight: 400;
+  font-size: 20px;
+
   /* font-family: "Orbitron", sans-serif; */
   /* border: solid white 2px; */
 }
@@ -20,6 +32,47 @@ h1 {
   font-family: "Orbitron", sans-serif;
   margin-left: 40px;
   margin-top: 30px;
+  font-weight: 700;
+  border: solid 2px red;
+  border-radius: 30px;
+  padding: 8px 15px 8px 15px;
+  background-color: #c0642b6b;
+  display: inline-block;
+}
+
+.navItem,
+.footerItem {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #120402;
+  color: white;
+}
+
+.navItem {
+  text-align: center;
+  padding: 0 25px;
+  font-family: "Orbitron", sans-serif;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #c0632b;
+}
+
+a:active {
+  color: white;
 }
 
 .planet-sectionone {
@@ -47,7 +100,7 @@ h1 {
   padding: 0px 30px 10px 30px;
   width: 600px;
   height: fit-content;
-  flex-flow: column nowrap;
+  flex-flow: column;
 }
 
 .venus-img {
@@ -63,5 +116,21 @@ h1 {
   padding: 0px 30px 10px 30px;
   width: 600px;
   height: fit-content;
-  flex-flow: column nowrap;
+  flex-flow: column;
+}
+
+.footer {
+  background-color: #120402;
+  color: white;
+  flex-shrink: 0;
+  position: static;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footerItem {
+  text-align: center;
+  padding: 10px;
+  font-family: "Orbitron", sans-serif;
 }
