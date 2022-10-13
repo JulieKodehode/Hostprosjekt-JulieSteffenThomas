@@ -24,7 +24,6 @@ p {
   font-weight: 400;
   font-size: 16px;
 
-
   /* font-family: "Orbitron", sans-serif; */
   /* border: solid white 2px; */
 }
@@ -112,7 +111,7 @@ a:active {
 .venus-info {
   display: flex;
   margin: 30px 60px 80px 0px;
-  border: #120402 solid px;
+  border: #120402 solid 2px;
   border-radius: 30px;
   background-color: #c0642b8d;
   padding: 0px 30px 10px 30px;
