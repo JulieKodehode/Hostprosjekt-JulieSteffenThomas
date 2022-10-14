@@ -95,7 +95,6 @@ footer MÅ ha flex-shrink: 0; */
 /*
 
 /* CSS landingsside */
-
 body {
   margin: 0;
   padding: 0;
@@ -138,9 +137,17 @@ img {
 }
 
 .size {
+<<<<<<< HEAD:index.css
+  padding: 5px;
   width: 50%;
 }
 
+/* Typography */
+=======
+  width: 50%;
+}
+
+>>>>>>> main:src/pages/landingssidePage/landigssideFiles/index.css
 h1 {
   font-size: 35px;
   letter-spacing: 7px;
