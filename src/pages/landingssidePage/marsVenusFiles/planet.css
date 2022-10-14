@@ -1,8 +1,7 @@
 body,
 html {
   color: white;
-  /* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
-  background-image: url(/images/pexels-pixabay-41951.jpg);
+  background-image: url(/src/images/pexels-pixabay-41951.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   height: 100%;
@@ -10,10 +9,6 @@ html {
   padding: 0;
   text-shadow: 0 0 3px #120402;
 }
-
-/* html {
-  height: 342%;
-} */
 
 h2 {
   font-family: "Orbitron", sans-serif;
@@ -86,10 +81,6 @@ a:active {
   justify-content: space-around;
 }
 
-#planeter-title {
-  margin: 10px;
-  padding: 10px;
-}
 .mars-img {
   margin-top: 150px;
   margin-right: 100px;
@@ -100,7 +91,7 @@ a:active {
   margin: 50px 70px 80px 50px;
   border: #120402 solid 3px;
   border-radius: 30px;
-  background-color: #7c2f1e9b;
+  background-color: #7c2f1eaf;
   padding: 0px 30px 10px 30px;
   width: 600px;
   height: fit-content;
