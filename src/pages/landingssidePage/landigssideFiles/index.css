@@ -13,7 +13,7 @@ body {
   padding: 0;
   height: 100%;
   /* Lagt til background som en del av denne css'en */
-  background-image: url(/images/pexels-pixabay-41951.jpg);
+  background-image: url(/src/images/pexels-pixabay-41951.jpg);
   background-repeat: no-repeat;
 }
 
@@ -109,6 +109,7 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
+  font-size: 18px;
   /* padding-bottom: 50px; */
 }
 
@@ -124,22 +125,29 @@ img {
   display: flex;
   flex-direction: row;
   /* padding-top: 50px; */
+  font-size: 18px;
 }
 
 .info-box {
   border: 3px #120402 solid;
   border-radius: 10px;
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   background-color: #7c2f1eb0; /* #7C2F1E */
 }
 
 .size {
+<<<<<<< HEAD:index.css
   padding: 5px;
   width: 50%;
 }
 
 /* Typography */
+=======
+  width: 50%;
+}
+
+>>>>>>> main:src/pages/landingssidePage/landigssideFiles/index.css
 h1 {
   font-size: 35px;
   letter-spacing: 7px;

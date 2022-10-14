@@ -1,0 +1,138 @@
+/* NO LONGER USED */
+body {
+	background-color: black;
+	color: white;
+	/* background-image: url(/images/Super\ Nova\ background\ long.jpg); */
+	background-image: url(/images/pexels-pixabay-41951.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 0 3px #120402;
+}
+
+html {
+	height: 100%;
+}
+
+h2 {
+	font-family: "Orbitron", sans-serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: "Turret Road", cursive;
+	font-weight: 400;
+	font-size: 16px;
+
+	/* font-family: "Orbitron", sans-serif; */
+	/* border: solid white 2px; */
+}
+
+h1 {
+	font-family: "Orbitron", sans-serif;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-weight: 700;
+	border: solid 3px #120402;
+	border-radius: 30px;
+	padding: 8px 15px 8px 15px;
+	background-color: #c0642b6b;
+	display: inline-block;
+}
+
+.navItem,
+.footerItem {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.navBar {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #120402;
+	color: white;
+}
+
+.navItem {
+	text-align: center;
+	padding: 0 25px;
+	font-family: "Orbitron", sans-serif;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #c0632b;
+}
+
+a:active {
+	color: white;
+}
+
+.planet-sectionone {
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: space-around;
+}
+
+.planet-sectiontwo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mars-img {
+	margin-top: 150px;
+	margin-right: 100px;
+}
+
+.mars-info {
+	display: flex;
+	margin: 50px 70px 80px 50px;
+	border: #120402 solid 3px;
+	border-radius: 30px;
+	background-color: #7c2f1e9b;
+	padding: 0px 30px 10px 30px;
+	width: max-content;
+	height: max-content;
+	flex-flow: column;
+}
+
+.venus-img {
+	margin-top: 35px;
+	margin-right: 50px;
+}
+
+.venus-info {
+	display: flex;
+	margin: 30px 60px 80px 0px;
+	border: #120402 solid 2px;
+	border-radius: 30px;
+	background-color: #c0642b8d;
+	padding: 0px 30px 10px 30px;
+	width: max-content;
+	height: max-content;
+	flex-flow: column;
+}
+
+.footer {
+	background-color: #120402;
+	color: white;
+	flex-shrink: 0;
+	position: sticky;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.footerItem {
+	text-align: center;
+	padding: 10px;
+	font-family: "Orbitron", sans-serif;
+}
