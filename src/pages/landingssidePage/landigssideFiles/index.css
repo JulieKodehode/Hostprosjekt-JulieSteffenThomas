@@ -13,7 +13,7 @@ body {
   padding: 0;
   height: 100%;
   /* Lagt til background som en del av denne css'en */
-  background-image: url(/images/pexels-pixabay-41951.jpg);
+  background-image: url(/src/images/pexels-pixabay-41951.jpg);
   background-repeat: no-repeat;
 }
 
